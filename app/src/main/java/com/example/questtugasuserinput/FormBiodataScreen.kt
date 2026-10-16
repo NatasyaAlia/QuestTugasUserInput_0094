@@ -24,3 +24,8 @@ import androidx.compose.ui.unit.sp
 @Composable
 fun BiodataScreen() {
     Scaffold { innerPadding ->
+        Box(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(innerPadding)
+        ) {
