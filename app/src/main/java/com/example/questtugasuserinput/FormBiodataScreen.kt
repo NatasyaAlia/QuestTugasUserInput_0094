@@ -50,3 +50,8 @@ fun BiodataScreen() {
                 )
                 .padding(24.dp)
         ) {
+            Column(
+                modifier = Modifier.fillMaxSize(),
+                horizontalAlignment = Alignment.CenterHorizontally
+            ) {
+        }
