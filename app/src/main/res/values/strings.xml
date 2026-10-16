@@ -3,4 +3,7 @@
     <string name="form_title">Form Biodata</string>
     <string name="form_subtitle">Silahkan isi biodata Anda dibawah ini !!!</string>
     <string name="bg_desc">Background Spider</string>
+    <string name="first_name">Nama Depan</string>
+    <string name="last_name">Nama Belakang</string>
+    <string name="email">Email</string>
 </resources>
