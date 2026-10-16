@@ -145,5 +145,22 @@ fun BiodataScreen() {
         }
     }
     Spacer(modifier = Modifier.height(24.dp))
+    Button(
+        onClick = { },
+        modifier = Modifier
+            .fillMaxWidth()
+            .height(50.dp),
+        colors = ButtonDefaults.buttonColors(
+            containerColor = colorResource(id = R.color.gray_button),
+            contentColor = Color.White
+        ),
+        shape = RoundedCornerShape(16.dp)
+    ) {
+        Text(
+            text = stringResource(id = R.string.proceed),
+            fontWeight = FontWeight.Bold
+        )
     }
-        }
+
+    }
+
