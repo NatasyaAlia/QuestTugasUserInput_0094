@@ -6,4 +6,6 @@
     <string name="first_name">Nama Depan</string>
     <string name="last_name">Nama Belakang</string>
     <string name="email">Email</string>
+    <string name="dob">Tgl Lahir</string>
+    <string name="experience">Experience</string>
 </resources>
