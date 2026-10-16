@@ -39,3 +39,14 @@ fun BiodataScreen() {
                     .align(Alignment.TopCenter)
             )
         }
+        Box(
+            modifier = Modifier
+                .fillMaxWidth()
+                .fillMaxHeight(0.7f)
+                .align(Alignment.BottomCenter)
+                .background(
+                    color = colorResource(id = R.color.white),
+                    shape = RoundedCornerShape(topStart = 32.dp, topEnd = 32.dp)
+                )
+                .padding(24.dp)
+        ) {
