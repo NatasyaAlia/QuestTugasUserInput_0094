@@ -67,5 +67,9 @@ fun BiodataScreen() {
                     color = colorResource(id = R.color.gray_subtitle)
                 )
                 Spacer(modifier = Modifier.height(24.dp))
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.spacedBy(8.dp)
+                ) {
             }
         }
