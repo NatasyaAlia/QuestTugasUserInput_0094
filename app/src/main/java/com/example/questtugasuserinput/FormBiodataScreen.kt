@@ -131,4 +131,19 @@ fun BiodataScreen() {
         horizontalArrangement = Arrangement.SpaceBetween,
         verticalAlignment = Alignment.CenterVertically
     ) {
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Checkbox(checked = false, onCheckedChange = {})
+            Text(stringResource(id = R.string.skill_android), fontSize = 12.sp)
+        }
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Checkbox(checked = false, onCheckedChange = {})
+            Text(stringResource(id = R.string.skill_uiux), fontSize = 12.sp)
+        }
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Checkbox(checked = false, onCheckedChange = {})
+            Text(stringResource(id = R.string.skill_web), fontSize = 12.sp)
+        }
+    }
+    Spacer(modifier = Modifier.height(24.dp))
+    }
         }
