@@ -120,4 +120,10 @@ fun BiodataScreen() {
         }
         Spacer(modifier = Modifier.height(16.dp))
         }
+    Text(
+        text = stringResource(id = R.string.skill_title),
+        fontWeight = FontWeight.Bold,
+        modifier = Modifier.fillMaxWidth()
+    )
+    Spacer(modifier = Modifier.height(8.dp))
         }
