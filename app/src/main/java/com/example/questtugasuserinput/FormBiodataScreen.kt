@@ -101,4 +101,13 @@ fun BiodataScreen() {
             modifier = Modifier.fillMaxWidth(),
             horizontalArrangement = Arrangement.spacedBy(8.dp)
         ) {
+            OutlinedTextField(
+                value = "",
+                onValueChange = {},
+                label = { Text(stringResource(id = R.string.dob)) },
+                trailingIcon = { Icon(Icons.Default.DateRange, contentDescription = null) },
+                shape = RoundedCornerShape(16.dp),
+                modifier = Modifier.weight(1f)
+            )
+        }
         }
