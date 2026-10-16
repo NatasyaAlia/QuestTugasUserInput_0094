@@ -29,3 +29,13 @@ fun BiodataScreen() {
                 .fillMaxSize()
                 .padding(innerPadding)
         ) {
+            Image(
+                painter = painterResource(id = R.drawable.bg_ku),
+                contentDescription = stringResource(id = R.string.bg_desc),
+                contentScale = ContentScale.Crop,
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .fillMaxHeight(0.45f)
+                    .align(Alignment.TopCenter)
+            )
+        }
