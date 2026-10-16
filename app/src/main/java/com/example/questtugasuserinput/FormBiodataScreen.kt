@@ -54,4 +54,11 @@ fun BiodataScreen() {
                 modifier = Modifier.fillMaxSize(),
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
+                Text(
+                    text = stringResource(id = R.string.form_title),
+                    fontSize = 28.sp,
+                    fontWeight = FontWeight.Bold,
+                    color = colorResource(id = R.color.purple_title)
+                )
+            }
         }
